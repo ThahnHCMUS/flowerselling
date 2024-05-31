@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:text="LOGIN"
+            android:textColor="@color/mau4"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Nhập Email của bạn:"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/Email_dn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/editdesign"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Nhập mật khẩu:"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/matkhau_dn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/editdesign"
+            android:inputType="textPassword"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+            <CheckBox
+                android:id="@+id/checknho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/mau4"
+                android:text="Nhớ mật khẩu"
+                ></CheckBox>
+            <Button
+                android:id="@+id/dangnhap"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="LOGIN"
+                android:textAllCaps="false"
+                android:background="@drawable/btndesign"
+                />
+        </LinearLayout>
+         <TextView
+             android:id="@+id/regis"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:textSize="17dp"
+             android:text="Tạo tài khoản !"
+             android:layout_marginTop="30dp"
+             android:textColor="@color/red"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>

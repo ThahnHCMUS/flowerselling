@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HoSoNguoiDungActivity"
+    android:gravity="center"
+    android:padding="25dp"
+    >
+    <TextView
+        android:id="@+id/labelthemdiachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa địa chỉ"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Nhập họ và tên:"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/HoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint= "Họ Tên"
+            android:textSize="15dp"
+            android:background="@drawable/editdesign"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nhập số điện thoại: "
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/SDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số Điện Thoại"
+        android:textSize="15dp"
+        android:background="@drawable/editdesign"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nhập địa chỉ:"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/DiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa Chỉ"
+        android:textSize="15dp"
+        android:background="@drawable/editdesign"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/chinhsuadiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btndesign"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Cập nhật"
+        android:textAllCaps="false" />
+</LinearLayout>

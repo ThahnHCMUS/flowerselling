@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DiaChiActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bảng Địa Chỉ Giao Hàng"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+        <Button
+            android:id="@+id/themdiachi"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/mau4"
+            android:text="+ Thêm Địa Chỉ Mới"
+            android:textSize="17dp"
+            android:layout_margin="12dp"
+            ></Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ListView
+                android:id="@+id/listdiachi"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:dividerHeight="10sp"
+                android:layout_height="match_parent"
+                ></ListView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

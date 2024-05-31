@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="@color/white">
+
+    <ImageView
+        android:id="@+id/imv_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Cation"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/slvahangdg"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="4.6(34)"
+                   android:layout_marginRight="5dp"
+                  android:layout_gravity="center"
+                   />
+               <RatingBar
+                   android:id="@+id/ratting"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:numStars="5"
+                   android:layout_gravity="center"
+                   style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"/>
+
+           </LinearLayout>
+            <TextView
+                android:id="@+id/gia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12,000 đ"
+                android:textColor="@color/orange"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

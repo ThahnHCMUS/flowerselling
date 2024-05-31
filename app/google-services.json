@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "397241678483",
+    "firebase_url": "https://cuoikijava-default-rtdb.firebaseio.com",
+    "project_id": "cuoikijava",
+    "storage_bucket": "cuoikijava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397241678483:android:3931dc8417392e420dab66",
+        "android_client_info": {
+          "package_name": "com.example.doanbanhoa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rMNaidVGi0K_Bq0nyxjQEXEh-CJieNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397241678483:android:3c7e43fdcc3bbf390dab66",
+        "android_client_info": {
+          "package_name": "com.example.doanbanhoa.Activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rMNaidVGi0K_Bq0nyxjQEXEh-CJieNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
